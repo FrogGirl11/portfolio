@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;1,600&display=swap');
+body {
+    background-color: lavenderblush;
+    color: rgb(247, 109, 155);
+}
+h1 {
+    color: yellowgreen;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+h2 {
+    color: yellowgreen;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Nunito', sans-serif;
+}
+h3 {
+    color: yellowgreen;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Nunito', sans-serif;
+}
+table {
+    font-family: 'Nunito', sans-serif;
+    color: yellowgreen;
+    border-collapse: collapse;
+    width: 100%;
+}
+    
+td, th {
+    border: 1px solid yellowgreen;
+    text-align: left;
+    padding: 8px;
+}
+/*Used to alternate colours in my table*/
+tr:nth-child(even) {
+    background-color: rgb(227, 241, 199);
+    color: rgb(247, 109, 155);
+}
+a:link {
+    color: yellowgreen;
+}
+/*Visited link*/
+a:visited {
+    color: rgb(251, 200, 217);
+}
+/*Hover Over*/
+a:hover {
+    color: rgb(247, 109, 155)
+}
+::selection {
+    background-color: rgb(247, 109, 155);
+    color: rgb(202, 241, 126);
+}
+img {
+    border: 3px solid yellowgreen;
+}
+footer {
+    text-align: center;
+    background-color: rgb(222, 242, 182);
+}
+body {
+    height: 125vh;
+    background-size: cover;
+    margin-top: 80px;
+    padding: 30px;
+}
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 15px 0 rgb(235, 171, 192);
+}
+header * {
+    display: inline;
+}
+header li a {
+    margin: 20px;
+    text-decoration: none;
+}
